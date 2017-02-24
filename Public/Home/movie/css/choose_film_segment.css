@@ -1,0 +1,140 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+
+.custom_navigate{
+	margin-top: 80px;
+	margin-bottom: 40px;
+	margin-left: 40px;
+	background-color: transparent !important;
+	display:inline-block;
+}
+.custom_navigate li,.custom_navigate li a{
+	color:white;
+	font-size: 24px !important;
+	font-family: "幼圆";
+	float: left;
+	text-decoration: none;
+}
+.custom_navigate .custom_active{
+	color:white;
+}
+.custom_container{
+	background: url("../img/bg.png") repeat;
+	width:100%;
+	background-size: 100%;
+}
+.upper_part{
+	width:965px;
+	height:483px;
+	margin:0px auto;
+	background-color: white;
+	border:1px #EDEDED solid;
+	border-radius: 10px;
+}
+.upper_left{
+	width:570px;
+	height:480px;
+	display:inline-block;
+	background-color: white;
+	border-radius: 10px;
+	border:1px #EDEDED solid;
+}
+.record_div{
+    height:50px;
+    width:570px;
+    display:inline-block;
+}
+
+.film_segment_box{
+	width:372px;
+	height:457px;
+	float:right;
+	margin-top: 9px;
+	margin-right:10px; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+.film_segment_box ul{
+	margin:0 0!important;
+	width:372px;
+	height:457px;
+    overflow-y:auto;
+    overflow-x:none;
+}
+
+.custom_film{
+	width:340px;
+	height:90px;
+	background-color: white;
+	padding:10px 10px !important;
+	margin: 5px 10px !important;
+	border:1px #EDEDED solid;
+	border-radius: 10px;
+}
+.custom_film .li_left{
+	width:70px;
+	height:70px;
+	display:inline-block;
+	float:left;
+}
+.custom_film .li_left img{
+	width:70px;
+	height:70px;
+}
+.custom_film .li_body{
+	display: inline-block;
+	height:87px;
+	width:225px;
+	float:right;
+	margin-right:15px;
+}
+.custom_film .li_body .film_name{
+	margin-top:0px;
+	margin-bottom: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top:0px;
+	padding-bottom: 0px;
+	line-height: 20px;
+}
+.custom_film .li_body .intro{
+	width:225px; 
+	font-size: 16px;
+	margin-bottom: 0px;
+}
+.custom_film .li_body .button{
+	background: url("../img/beginstudy.png") no-repeat;
+	outline: none;
+	border:none;
+	width:53px;
+	height:17px;
+	background-size: 100%;
+}
+
+.down_part{
+	width:965px;
+	height:486px;
+	margin:5px auto;
+	background-color: white;
+	border:1px #EDEDED solid;
+	border-radius: 10px;
+	overflow:hidden;
+}
+.lines{
+	margin:5px 5px;
+	width:965px;
+	height:486px;
+	overflow-y:auto;
+	/*overflow-x: none;*/
+	font-size: 24px;
+
+}
+.media-body p{
+	margin-top: 12px !important;
+	font-size: 18px !important;
+}
+.media-body h2{
+	font-size: 28px !important;
+}

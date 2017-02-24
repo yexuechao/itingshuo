@@ -1,0 +1,21 @@
+[ 2016-03-03T15:41:55+08:00 ] ::1 /its/index.php/Home/correct/correactingList
+ERR: 非法操作:correactingList
+
+[ 2016-03-03T15:43:22+08:00 ] ::1 /its/index.php/Home/correct/correactingList
+ERR: 非法操作:correactingList
+
+[ 2016-03-03T15:43:23+08:00 ] ::1 /its/index.php/Home/correct/correactingList
+ERR: 非法操作:correactingList
+
+[ 2016-03-03T16:40:53+08:00 ] ::1 /its/index.php/Home/15.%E6%95%99%E5%B8%88%E7%AB%AF%E7%94%B5%E5%BD%B1%E6%83%85%E7%BB%AA/te_movie.html
+ERR: 无法加载控制器:15.教师端电影情绪
+
+[ 2016-03-03T19:33:01+08:00 ] ::1 /its/index.php/Home/17.%E6%95%99%E5%B8%88%E7%AB%AF%E8%AF%AD%E9%9F%B3%E8%AF%AD%E8%B0%83%E9%80%89%E6%8B%A9%E8%AF%BE%E7%A8%8B/te_choose_course.html
+ERR: 无法加载控制器:17.教师端语音语调选择课程
+
+[ 2016-03-03T19:37:25+08:00 ] ::1 /its/index.php/Home/tone/tone/indexTeacher
+ERR: 非法操作:tone
+
+[ 2016-03-03T19:42:07+08:00 ] ::1 /its/index.php/Home/in
+ERR: 无法加载控制器:in
+

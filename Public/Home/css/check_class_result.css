@@ -1,0 +1,38 @@
+﻿@charset "utf-8";
+ CSS Document
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background:url("../img/bg.png");
+	width:100%;
+	background-size:100%;
+}
+#iFrame1{
+	display:inline-block;
+	height:360px;
+	width:188px;
+	margin-right: 88px;
+	position:relative;
+	bottom:25px;
+}
+
+.leftlink{
+	width:188px;
+	height:360px;
+	background-color: white;
+	border-radius: 10px;
+}
+#iFrame2{
+	display:inline-block;
+	margin-top: 38px;
+}
+.right{
+	width:710px;
+	height:447px;
+	display:inline-block;
+	border-radius: 10px;
+}
+
+    

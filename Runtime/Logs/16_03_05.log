@@ -1,0 +1,79 @@
+[ 2016-03-05T13:32:47+08:00 ] ::1 /its/index.php/Home/Index/login
+ERR: ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2016-03-05T17:09:37+08:00 ] ::1 /its/index.php/Home/correct/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-03-05T17:09:37+08:00 ] ::1 /its/index.php/Home/correct/css/check_class_result.css
+ERR: 非法操作:css
+
+[ 2016-03-05T17:09:37+08:00 ] ::1 /its/index.php/Home/correct/css/te_nav_style.css
+ERR: 非法操作:css
+
+[ 2016-03-05T17:09:37+08:00 ] ::1 /its/index.php/Home/correct/css/button_styles.css
+ERR: 非法操作:css
+
+[ 2016-03-05T17:09:37+08:00 ] ::1 /its/index.php/Home/correct/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2016-03-05T17:09:37+08:00 ] ::1 /its/index.php/Home/correct/js/jquery-1.12.0.min.js
+ERR: 非法操作:js
+
+[ 2016-03-05T17:09:37+08:00 ] ::1 /its/index.php/Home/correct/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-03-05T17:11:56+08:00 ] ::1 /its/index.php/Home/correct/js/bootstrap.min.js
+ERR: 非法操作:js
+
+[ 2016-03-05T17:11:56+08:00 ] ::1 /its/index.php/Home/correct/js/jquery-1.12.0.min.js
+ERR: 非法操作:js
+
+[ 2016-03-05T17:11:56+08:00 ] ::1 /its/index.php/Home/correct/js/jquery.js
+ERR: 非法操作:js
+
+[ 2016-03-05T17:19:31+08:00 ] ::1 /its/index.php/Home/correct/HOME_CSS_STYLESjquery-1.11.2.min.js
+ERR: 非法操作:HOME_CSS_STYLESjquery-1.11.2.min.js
+
+[ 2016-03-05T19:51:53+08:00 ] ::1 /its/index.php/Home/correct/leftLink
+ERR: 模板不存在:D:/wamp/www/its/Home/View/correct/leftLink.html
+
+[ 2016-03-05T19:51:57+08:00 ] ::1 /its/index.php/Home/correct/leftLink
+ERR: 模板不存在:D:/wamp/www/its/Home/View/correct/leftLink.html
+
+[ 2016-03-05T19:53:14+08:00 ] ::1 /its/index.php/Home/correct/chooseFlag
+ERR: 模板不存在:D:/wamp/www/its/Home/View/correct/chooseFlag.html
+
+[ 2016-03-05T20:09:09+08:00 ] ::1 /its/index.php/Home/correct/checkGradeMovie?emotion_id=1&movie_id=1&segment_id=1
+ERR: 模板不存在:D:/wamp/www/its/Home/View/correct/checkGradeMovie.html
+
+[ 2016-03-05T20:11:33+08:00 ] ::1 /its/index.php/Home/correct/checkGradeMovie?emotion_id=1&movie_id=1&segment_id=1
+ERR: 非法操作:checkGradeMovie
+
+[ 2016-03-05T20:11:38+08:00 ] ::1 /its/index.php/Home/movie/chooseFlag
+ERR: 非法操作:chooseFlag
+
+[ 2016-03-05T20:12:17+08:00 ] ::1 /its/index.php/Home/movie/chooseFlag
+ERR: 非法操作:chooseFlag
+
+[ 2016-03-05T20:12:18+08:00 ] ::1 /its/index.php/Home/movie/chooseFlag
+ERR: 非法操作:chooseFlag
+
+[ 2016-03-05T20:12:54+08:00 ] ::1 /its/index.php/Home/movie/chooseFlag
+ERR: 非法操作:chooseFlag
+
+[ 2016-03-05T20:13:15+08:00 ] ::1 /its/index.php/Home/movie/chooseFlag
+ERR: 非法操作:chooseFlag
+
+[ 2016-03-05T22:59:28+08:00 ] ::1 /its/index.php/Home/movie/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-03-05T23:03:46+08:00 ] ::1 /its/index.php/Home/movie/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-03-05T23:06:33+08:00 ] ::1 /its/index.php/Home/movie/css/bootstrap.min.css
+ERR: 非法操作:css
+
+[ 2016-03-05T23:12:36+08:00 ] ::1 /its/index.php/Home/movie/css/bootstrap.min.css
+ERR: 非法操作:css
+

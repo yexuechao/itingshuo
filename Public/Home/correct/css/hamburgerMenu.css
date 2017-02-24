@@ -1,0 +1,352 @@
+/*@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);*/
+/*$slide-speed: .3s;*/
+/*$hover-speed: .15s;*/
+/*$explode-speed: .25s;*/
+li {
+  list-style: none;
+}
+.menu{
+  width:637px;
+  margin:0px auto;
+}
+#lettuce{
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 30px;
+  background-color: #4AB6C1;
+  height:90px;
+}
+#pickle a img{
+  height:27px;
+}
+#pickle a img:hover{
+  height:32px;
+  transition:height,0.5s,ease,0s;
+}
+#cheese a img{
+  height:25px;
+}
+#cheese a img:hover{
+  height:30px;
+  transition:height,0.5s,ease,0s;
+}
+#bacon a img,#cheese2 a img{
+  height:32px;
+}
+#bacon a img:hover,#cheese2 a img:hover {
+  height: 36px;
+  transition:height,0.5s,ease,0s;
+}
+#pickle,#cheese,#bacon{
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+
+#burger{
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 40px;
+  background-color: #4AB6C1;
+  height:70px;
+}
+.hamburger {
+  margin-top: 200px;
+  width: 250px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item {
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.lettuce {
+  -webkit-transform: translateY(120px);
+          transform: translateY(120px);
+}
+
+.pickle {
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+}
+
+.cheese {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.bacon {
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+          
+}
+.burger {
+  -webkit-transform: translateY(-70px);
+          transform: translateY(-70px);
+}
+.item.lettuce-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+            padding-bottom: 20px;
+  border-bottom: 1px dashed white;
+}
+
+.item.pickle-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+          padding-top: 30px;
+}
+
+.item.cheese-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+          padding-top:20px;
+}
+
+.item.bacon-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+          padding-top:10px;
+          padding-bottom: 20px;
+}
+
+.item.burger-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+
+.lettuce-hover {
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+
+}
+
+.pickle-hover {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.cheese-hover {
+  -webkit-transform: translateY(-9px);
+          transform: translateY(-9px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.bacon-hover {
+  -webkit-transform: translateY(-36px);
+          transform: translateY(-36px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.burger-hover {
+  -webkit-transform: translateY(-67.5px);
+          transform: translateY(-67.5px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+/*the second hamburger
+*/
+#lettuce2{
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding-top: 30px;
+  background-color: #37AAC2;
+  height:90px;
+}
+
+#pickle2,#cheese2,#bacon2{
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+}
+
+#burger2{
+  border-bottom: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 40px;
+  background-color: #37AAC2;
+  height:70px;
+}
+.hamburger2 {
+  margin-top: 200px;
+  width: 250px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: inline-block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  cursor: pointer;
+  text-align: center;
+}
+
+.item2 {
+  position: relative;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.lettuce2 {
+  -webkit-transform: translateY(120px);
+          transform: translateY(120px);
+}
+
+.pickle2 {
+  -webkit-transform: translateY(60px);
+          transform: translateY(60px);
+}
+
+.cheese2 {
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.bacon2 {
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+          
+}
+.burger2 {
+  -webkit-transform: translateY(-70px);
+          transform: translateY(-70px);
+}
+.item2.lettuce2-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+            padding-bottom: 20px;
+  border-bottom: 1px dashed white;
+}
+
+.item2.pickle2-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.item2.cheese2-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+          padding-top:20px;
+}
+
+.item2.bacon2-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+          padding-bottom: 20px;
+}
+
+.item2.burger2-explode {
+  position: relative;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+
+.lettuce2-hover {
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+
+}
+
+.pickle2-hover {
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.cheese2-hover {
+  -webkit-transform: translateY(-9px);
+          transform: translateY(-9px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.bacon2-hover {
+  -webkit-transform: translateY(-36px);
+          transform: translateY(-36px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+.burger2-hover {
+  -webkit-transform: translateY(-67.5px);
+          transform: translateY(-67.5px);
+  position: relative;
+  -webkit-transition: 0.15s;
+  transition: 0.15s;
+}
+
+
+

@@ -1,0 +1,151 @@
+body{
+    background-image: url("../img/bg.png");
+    background-size: 100%;
+}
+
+.register{
+    width:100%;
+}
+.register-sub{
+    width:400px;
+    margin: 120px auto;
+}
+input{
+    width:360px;
+    height:40px;
+    background:transparent;
+    border:none;
+    font-size: 28px;
+    margin-left:50px;
+    font-family:"微软雅黑";
+    background-position: 0px -4px;
+    color:white;
+}
+
+input:focus{
+    outline:none;
+}
+input:-ms-input-placeholder{
+    color:white;
+    font-size: 28px;
+}
+input::-webkit-input-placeholder{
+    color:white;
+    font-size: 28px;
+}
+.list{
+    background-repeat:no-repeat;
+    width:400px;
+    height:80px;
+}
+.name{
+    background-image:url("../img/name.png");
+}
+.stu_number{
+    background-image:url("../img/stunum.png");
+}
+.set_password{
+    background-image:url("../img/key.png");
+}
+.select_class{
+    background-image:url("../img/chossclass.png");
+    background-position: 0px 10px;
+    margin-top:25px;
+}
+
+.button{
+    width:330px;
+    height:62px;
+    background:url('../img/register.png') no-repeat left top;
+}
+.button:hover{
+    width:330px;
+    height:62px;
+    background:url('../img/register_after.png') no-repeat left top;
+}
+
+/*----------------------------------------------------------------*/
+*{padding: 0px; margin: 0px;}
+            .content{
+                width: 100%; 
+                height: 300px;
+            }
+            .content .select{
+                width: 300px; 
+                height: 40px; 
+                background: transparent; 
+                margin: 0px auto;
+                position: relative;
+            }
+            .content .select::after{
+                content: "";
+                display: block;
+                width: 20px;
+                height: 20px;
+                border-right: 3px solid #FFFFFF;
+                border-bottom: 3px solid #FFFFFF;
+                top: 12px;
+                right: 12px;
+                position: absolute;
+                transform: rotate(-46deg);
+                transition: all .3s ease-in;
+            }
+            .content .select p{
+                width: 300px;
+                line-height: 40px; 
+                color:white;
+                font-size: 28px;
+                font-family: "microsoft yahei";
+                background-color: transparent;
+            }
+            .content .select ul{
+                width: 300px;
+                display: block;
+                font-size: 28px;
+                background: #F0F0F0;
+                position: absolute;
+                top: 40px;
+                left: 0px;
+                max-height: 0px;
+                overflow: hidden;
+                border-radius: 8px;
+                overflow-y:auto;
+                transition: max-height .3s ease-in;
+            }
+            .content .select ul li{
+                width: 100%;
+                height: 30px;
+                line-height: 30px;
+                padding: 0px 15px;
+                list-style: none;
+                color: #4398C7;
+                display:block;
+            }
+            .content .select ul li.Selected{
+                background:#6DB4CB;
+                color: #FFFFFF;
+            }
+            .content .select ul li:hover{
+                background: #87B5CB;
+                color:white;
+            }
+            @-webkit-keyframes slide-down{
+                0%{transform: scale(1,0);}
+                25%{transform: scale(1,1.2);}
+                50%{transform: scale(1,0.85);}
+                75%{transform: scale(1,1.05);}
+                100%{transform: scale(1,1);}
+            }
+            
+            .content .select.open ul{
+                max-height: 250px;
+                transform-origin: 50% 0;
+                -webkit-animation: slide-down .5s ease-in;
+                transition: max-height .2s ease-in;
+            }
+            .content .select.open::after{
+                transform: rotate(44deg);
+                transition: all .3s ease-in;
+                top: 18px;
+                
+            }

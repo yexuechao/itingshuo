@@ -1,0 +1,79 @@
+﻿@charset "utf-8";
+ CSS Document
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background:url("../img/bg.png");
+	width:100%;
+	background-size:100%;
+}
+.custom_navigate{
+	margin-top: 90px;
+	background-color: transparent !important;
+	display:block;
+	margin-left:40px;
+}
+.custom_navigate li{
+	color:white;
+	font-size: 24px !important;
+	font-family: "幼圆";
+	float: left;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.left_wrapper{
+	margin-top: 170px;
+	border-radius: 10px;
+	width:188px;
+	overflow: hidden;
+	display:inline-block;
+	float:left;
+}
+.leftlink{
+	height:360px;
+	width:188px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	background-color: white;
+}
+.leftlink ul{
+		list-style: none;
+		font-family:"微软雅黑";
+		font-size: 24px;	
+    }
+.leftlink ul li{
+		height:45px;
+		border-bottom:1px solid #e0e0e0;
+		text-align: center;
+		line-height: 45px;	
+}
+
+.leftlink ul li a{
+	color:#69BDCE;
+	text-decoration:none;
+}
+/*.leftlink  ul li a:visited{*/
+    	/*color:#3DAEC3;*/
+    	/*font-weight: bold;*/
+/*}*/
+.leftlink ul li:hover,.hover_color{
+		font-weight: bold;
+		color:#3DAEC3;
+}
+
+#iFrame2{
+	display:inline-block;
+	margin-top: 38px;
+	float:right;
+}
+.right{
+	width:710px;
+	height:447px;
+	display:inline-block;
+	border-radius: 10px;
+	margin-top: 128px;
+}
+
+    

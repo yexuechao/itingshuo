@@ -1,0 +1,58 @@
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h2 class="modal-title" id="myModalLabel">修改个人资料</h2>
+            </div>
+            <div class="register">
+                <form class="register-sub" autocomplete="off" action="" method="post">
+                    <div class="modal-body">
+                        <div class="name list">
+                            <h3>&nbsp;&nbsp;&nbsp;姓名：</h3>
+                            <lable for="name" class="sr-only">name</lable>
+                            <input type="text" name="user_name" placeholder="<?php echo $_SESSION['user']['user_name']?>" id="name" autofocus="autofocus" >
+                        </div>
+                        <div class="set_password list">
+                            <h3>原密码：</h3>
+                            <lable for="set_password" class="sr-only">set password</lable>
+                            <input type="password" name="before_password" placeholder="请输入原密码" id="before_password">
+                        </div>
+                        <div class="set_password list">
+                            <h3>新密码：</h3>
+                            <lable for="set_password" class="sr-only">set password</lable>
+                            <input type="password" name="set_password" placeholder="请输入新密码" id="set_password">
+                        </div>
+                        <div class=" set_password list">
+                            <h3>新密码：</h3>
+                            <lable for="reset_password" class="sr-only">reset password</lable>
+                            <input type="password" name="reset_password" placeholder="请再次输入新密码" id="reset_password">
+                        </div>
+                        <div class=" select_class list">
+                            <h3>&nbsp;&nbsp;&nbsp;班级：</h3>
+                            <div class="content">
+                                <div class="select" id="select_class">
+                                    <p data-value="选择班级">选择班级</p>
+                                    <ul>
+                                        <li data-value="选择班级" class="Selected" value1="0">选择班级</li>
+                                        <?php
+                                        foreach($all_class as $class){
+                                        ?>
+                                        <li data-value="<?php echo  $class['institute_name'].$class['class_name'] ?>" value1="<?php echo $class['class_id'] ?>"><?php echo $class["institute_name"]; echo $class["class_name"]?></li>
+                                        <?php
+                                        }
+                                        ?>
+                                    </ul>
+                                    <input type="hidden" value="0" name="class_id" id="fill_class">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input type="button" value="" id="submit_info" class="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

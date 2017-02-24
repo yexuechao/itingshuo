@@ -1,0 +1,25 @@
+﻿@charset "utf-8";
+ CSS Document
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background:url("../img/bg.png");
+	width:100%;
+	background-size:100%;
+}
+
+.menu1{
+	float:left;
+	display:inline-block;
+}
+
+.menu2{
+	float:right;
+	display:inline-block;
+}
+
+.container ul li {
+	height:50px;
+}

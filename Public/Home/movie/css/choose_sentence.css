@@ -1,0 +1,53 @@
+.custom_navigate{
+	margin-top: 60px;
+	background-color: transparent !important;
+	display:inline-block;
+	margin-left: 40px;
+}
+.custom_navigate li,.custom_navigate li a{
+	color:white;
+	font-size: 24px !important;
+	font-family: "幼圆";
+	float: left;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.custom_navigate .custom_active{
+	color:white;
+}
+.custom_container{
+	background:url("../img/bg.png");
+	width:100%;
+	background-size: 100%;
+}
+.custom_film{
+	width:100%;
+	background-color: white;
+	padding:10px 10px !important;
+	margin: 5px 10px !important;
+}
+
+.custom_film .media-body a .button{
+	background: url("../img/checkGrade.png") no-repeat;
+	width:103px;
+	height:31px;
+	background-size: 100%;
+}
+.media-body p{
+	color:gray;
+}
+.media-heading small{
+	float:right;
+}
+.container-fluid {
+  padding: 20px;
+}
+.box {
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+}
+.box img {
+  width:120px;
+	height:120px;
+}

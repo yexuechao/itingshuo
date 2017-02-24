@@ -1,0 +1,92 @@
+
+/*=====================*/
+.top{
+  margin-top: 90px;
+  margin-left: 300px;
+}
+.checkbox {
+  position: relative;
+  display: inline-block;
+}
+.checkbox:after, .checkbox:before {
+  font-family: FontAwesome;
+  -webkit-font-feature-settings: normal;
+     -moz-font-feature-settings: normal;
+          font-feature-settings: normal;
+  -webkit-font-kerning: auto;
+     -moz-font-kerning: auto;
+          font-kerning: auto;
+  -webkit-font-language-override: normal;
+     -moz-font-language-override: normal;
+          font-language-override: normal;
+  font-stretch: normal;
+  font-style: normal;
+  font-synthesis: weight style;
+  font-variant: normal;
+  font-weight: normal;
+  text-rendering: auto;
+}
+.checkbox label {
+  width: 662px;
+  height: 64px;
+  background: #ccc;
+  position: relative;
+  display: inline-block;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.checkbox label:after {
+  content: '';
+  position: absolute;
+  border-radius: 100%;
+  left: 0;
+  top: -5px;
+  z-index: 2;
+  background:url(../img/查看班级成绩.png) no-repeat;
+  background-size: 110%;
+  background-position: -18px;
+  width: 662px;
+  height: 64px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.checkbox input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkbox input:hover + label:after {
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2), 0 3px 8px 0 rgba(0, 0, 0, 0.15);
+}
+.model-9 .checkbox label {
+  background:url(../img/查看个人成绩-暗.png) no-repeat;
+  background-size: 100%;
+  width: 662px;
+  height: 64px;
+  border-radius: 20px;
+}
+.model-9 .checkbox label:after {
+  border-radius: 60px;
+  top:0;
+  width: 331px;
+  height: 64px;
+}
+.model-9 .checkbox input:checked + label {
+  background:url(../img/查看个人成绩-暗.png) no-repeat;
+  background-size: 100%;
+
+}
+.model-9 .checkbox input:checked + label:after {
+  background:url(../img/查看个人成绩1.png) no-repeat;
+  background-size: 110%;
+  left: 331px;
+  background-position: -18px;
+}
+

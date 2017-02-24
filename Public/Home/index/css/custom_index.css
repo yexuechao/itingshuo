@@ -1,0 +1,52 @@
+.row{
+    margin-right: -15px;//不知道为什么，框架是这么打的，可能感觉会好点
+    margin-left: -15px;
+}
+.row a .button1 {
+    background:url("../img/button1.png") no-repeat;
+    background-size:265.2px;
+    height:390px;
+    width:390px;
+    background-position: center center;
+}
+.row a:hover .button1 {
+    background:url("../img/button1_click.png") no-repeat;
+    background-size:390px;
+    height:390px;
+    width:390px;
+    background-position: center center;
+    transition:background,0.5s,ease,0s;
+}
+.row a .button2 {
+    background:url("../img/button2.png") no-repeat;
+    background-size:265.2px;
+    height:390px;
+    width:390px;
+    background-position: center center;
+}
+.row a:hover .button2 {
+    background:url("../img/button2_click.png") no-repeat;
+    background-size:390px;
+    height:390px;
+    width:390px;
+    background-position: center center;
+    transition:background,0.5s,ease,0s;
+}
+.row a .button3 {
+    background:url("../img/button3.png") no-repeat;
+    background-size:265.2px;
+    height:390px;
+    width:390px;
+    background-position: center center;
+}
+.row a:hover .button3 {
+    background:url("../img/button3_click.png") no-repeat;
+    background-size:390px;
+    height:390px;
+    width:390px;
+    background-position: center center;
+    transition:background,0.5s,ease,0s;
+}
+
+
+

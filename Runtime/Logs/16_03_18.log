@@ -1,0 +1,1691 @@
+[ 2016-03-18T22:24:07+08:00 ] ::1 /its/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002032s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001349s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000171s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000542s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003161s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\its\Runtime\Cache\Home\50690c813986d244f054664065d244a0.php 第 41 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.551162s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.551711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000449s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2016-03-18T22:24:07+08:00 ] ::1 /its/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.090315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001264s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000295s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000548s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001248s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\its\Runtime\Cache\Home\50690c813986d244f054664065d244a0.php 第 41 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.634680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.635379s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001127s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002228s ]
+
+[ 2016-03-18T22:24:23+08:00 ] ::1 /its/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001253s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `its_user` [ RunTime:3.212231s ]
+SQL: SELECT * FROM `its_user` WHERE ( user_code=20141002347 )  [ RunTime:0.285564s ]
+SQL: UPDATE `its_user` SET `last_login_time`=1458311062 WHERE ( user_id=3 ) [ RunTime:0.275496s ]
+
+[ 2016-03-18T22:24:23+08:00 ] ::1 /its/index.php/Home/Index/chooseModule.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001187s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000377s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000366s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000366s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000797s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.088668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.089631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000698s ]
+
+[ 2016-03-18T22:24:39+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.005486s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001231s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000319s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000562s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002824s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.131919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.134177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000526s ]
+
+[ 2016-03-18T22:24:51+08:00 ] ::1 /its/index.php/Home/Movie/emoSelect?emotion_id=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.003360s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `its_movie` [ RunTime:0.186732s ]
+SQL: SELECT * FROM `its_movie` WHERE ( emotion_id=2 )  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.015850s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000211s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000370s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000779s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030172s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001052s ]
+
+[ 2016-03-18T22:24:58+08:00 ] ::1 /its/index.php/Home/Movie/showMovie?movie_id=1&emotion_id=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001235s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001144s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000361s ]
+SQL: SHOW COLUMNS FROM `its_movie_segment` [ RunTime:0.135999s ]
+SQL: SELECT * FROM `its_movie_segment` WHERE ( movie_id=1 and emotion_id=2 )  [ RunTime:0.108709s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.013331s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+NOTIC: [8] Undefined index: segment_id D:\wamp\www\its\Home\Controller\MovieController.class.php 第 57 行.
+NOTIC: [8] Undefined index: segment_addr D:\wamp\www\its\Home\Controller\MovieController.class.php 第 68 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000596s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001150s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.113231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000424s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001348s ]
+
+[ 2016-03-18T22:24:59+08:00 ] ::1 /its/index.php/Home/Movie/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.006190s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000759s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000534s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000537s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001248s ]
+NOTIC: [8] Undefined variable: sen D:\wamp\www\its\Runtime\Cache\Home\4cf4313c909046151cf5a12233930395.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.094777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.095826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001432s ]
+
+[ 2016-03-18T22:25:17+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002029s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000195s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000419s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000884s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.044359s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001062s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2016-03-18T22:25:21+08:00 ] ::1 /its/index.php/Home/Movie/emoSelect?emotion_id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001159s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001215s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001193s ]
+SQL: SHOW COLUMNS FROM `its_movie` [ RunTime:0.027707s ]
+SQL: SELECT * FROM `its_movie` WHERE ( emotion_id=4 )  [ RunTime:0.002401s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.053911s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000276s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000959s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.005298s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\1878e2b721e90062acda033384db764e.php 第 41 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.051407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001925s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001301s ]
+
+[ 2016-03-18T22:25:23+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000214s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000415s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000836s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038528s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2016-03-18T22:25:27+08:00 ] ::1 /its/index.php/Home/Tone/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001270s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000218s ]
+SQL: SHOW COLUMNS FROM `its_course` [ RunTime:0.144634s ]
+SQL: SELECT * FROM `its_course`  [ RunTime:0.000988s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000168s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000374s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000792s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000857s ]
+
+[ 2016-03-18T22:25:30+08:00 ] ::1 /its/index.php/Home/Tone/sentenceList?course_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.003189s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001140s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.134286s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.001477s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000365s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000793s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.070266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-03-18T22:25:31+08:00 ] ::1 /its/index.php/Home/Tone/senSelect?course_id=1&sentence_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.017498s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( sentence_id=1 and course_id=1 )  [ RunTime:0.001037s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.000990s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000172s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000797s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.077489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078046s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000452s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000148s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000251s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-03-18T22:25:32+08:00 ] ::1 /its/index.php/Home/Tone/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.004229s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006427s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000693s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000578s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001268s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.127257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.127995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000427s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2016-03-18T22:26:18+08:00 ] ::1 /its/index.php/Home/Tone/senSelect?course_id=1&sentence_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.004309s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001283s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.018038s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( sentence_id=1 and course_id=1 )  [ RunTime:0.001350s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.001143s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000550s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000347s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000773s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.040482s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000861s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000605s ]
+
+[ 2016-03-18T22:26:18+08:00 ] ::1 /its/index.php/Home/Tone/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001387s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.007906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002748s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000506s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001695s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.067458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068361s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000591s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-03-18T22:26:28+08:00 ] ::1 /its/index.php/Home/Tone/senSelect?course_id=1&sentence_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002069s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000221s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.020088s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( sentence_id=1 and course_id=1 )  [ RunTime:0.001332s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.000973s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000607s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001357s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.041274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041852s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001298s ]
+
+[ 2016-03-18T22:26:28+08:00 ] ::1 /its/index.php/Home/Tone/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.003318s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012152s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000419s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000322s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001313s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002170s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.059110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000481s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2016-03-18T22:32:08+08:00 ] ::1 /its/index.php/Home/Tone/senSelect?course_id=1&sentence_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001471s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.022972s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( sentence_id=1 and course_id=1 )  [ RunTime:0.001474s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.001135s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000591s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001323s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.058363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-03-18T22:32:08+08:00 ] ::1 /its/index.php/Home/Tone/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002308s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001227s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000657s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002182s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.084740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.085524s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001003s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001020s ]
+
+[ 2016-03-18T22:33:07+08:00 ] ::1 /its/index.php/Home/Tone/senSelect?course_id=1&sentence_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001334s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.030860s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( sentence_id=1 and course_id=1 )  [ RunTime:0.001475s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.001246s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000248s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000608s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001318s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.050906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000440s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-03-18T22:33:08+08:00 ] ::1 /its/index.php/Home/Tone/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002443s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001224s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000353s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000610s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001415s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.121915s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.122631s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001141s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000448s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2016-03-18T22:33:18+08:00 ] ::1 /its/index.php/Home/Tone/senSelect?course_id=1&sentence_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001487s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000220s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.023843s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( sentence_id=1 and course_id=1 )  [ RunTime:0.001497s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.001191s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000729s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001598s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.048084s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049080s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-03-18T22:33:19+08:00 ] ::1 /its/index.php/Home/Tone/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002592s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002527s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000351s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.001164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002067s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.108065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000258s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001167s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002228s ]
+
+[ 2016-03-18T22:34:00+08:00 ] ::1 /its/index.php/Home/movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.005020s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000323s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000690s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001351s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.074033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000696s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001018s ]
+
+[ 2016-03-18T22:34:02+08:00 ] ::1 /its/index.php/Home/movie/emoSelect?emotion_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.003501s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001930s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `its_movie` [ RunTime:0.025647s ]
+SQL: SELECT * FROM `its_movie` WHERE ( emotion_id=1 )  [ RunTime:0.001196s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.023579s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000672s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001388s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.064443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-03-18T22:34:04+08:00 ] ::1 /its/index.php/Home/movie/showMovie?movie_id=1&emotion_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002025s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `its_movie_segment` [ RunTime:0.022768s ]
+SQL: SELECT * FROM `its_movie_segment` WHERE ( movie_id=1 and emotion_id=1 )  [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.018012s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+NOTIC: [8] Undefined index: segment_id D:\wamp\www\its\Home\Controller\MovieController.class.php 第 57 行.
+NOTIC: [8] Undefined index: segment_addr D:\wamp\www\its\Home\Controller\MovieController.class.php 第 68 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000806s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001463s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.106499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.107414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000727s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000271s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2016-03-18T22:34:05+08:00 ] ::1 /its/index.php/Home/movie/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001799s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000328s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.002467s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004834s ]
+NOTIC: [8] Undefined variable: sen D:\wamp\www\its\Runtime\Cache\Home\a4cdf1562fbfe5d1c22158bca64a73af.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.131090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.131744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000661s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2016-03-18T22:35:44+08:00 ] ::1 /its/index.php/Home/movie/showMovie?movie_id=1&emotion_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001748s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `its_movie_segment` [ RunTime:0.021237s ]
+SQL: SELECT * FROM `its_movie_segment` WHERE ( movie_id=1 and emotion_id=1 )  [ RunTime:0.001778s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.046118s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+NOTIC: [8] Undefined index: segment_id D:\wamp\www\its\Home\Controller\MovieController.class.php 第 57 行.
+NOTIC: [8] Undefined index: segment_addr D:\wamp\www\its\Home\Controller\MovieController.class.php 第 68 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000297s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000569s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001046s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.054314s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055060s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000636s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-03-18T22:35:45+08:00 ] ::1 /its/index.php/Home/movie/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002724s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000204s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000338s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001006s ]
+NOTIC: [8] Undefined variable: sen D:\wamp\www\its\Runtime\Cache\Home\a4cdf1562fbfe5d1c22158bca64a73af.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.029848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030228s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000429s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2016-03-18T22:35:57+08:00 ] ::1 /its/index.php/Home/Text/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002021s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000243s ]
+SQL: SHOW COLUMNS FROM `its_text_type` [ RunTime:0.077773s ]
+SQL: SELECT * FROM `its_text_type`  [ RunTime:0.001136s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000300s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000343s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000756s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.055980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2016-03-18T22:35:59+08:00 ] ::1 /its/index.php/Home/Text/textList?type_id=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000397s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000134s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.104612s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=2 )  [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.068575s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=3 and type_id=2 )  [ RunTime:0.022035s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=3 and type_id=2 and eval_grade is not null )  [ RunTime:0.001271s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.019758s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000293s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000742s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001736s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.100969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.101585s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001196s ]
+
+[ 2016-03-18T22:36:00+08:00 ] ::1 /its/index.php/Home/Text/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001613s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.005960s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.006587s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.159641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.160337s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000231s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000737s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002666s ]
+
+[ 2016-03-18T22:36:18+08:00 ] ::1 /its/index.php/Home/Text/textList?type_id=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001877s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000362s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.022897s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=2 )  [ RunTime:0.001302s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.022602s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=3 and type_id=2 )  [ RunTime:0.000944s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=3 and type_id=2 and eval_grade is not null )  [ RunTime:0.001082s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.018004s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000267s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001241s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001998s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.051077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051529s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000577s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2016-03-18T22:36:19+08:00 ] ::1 /its/index.php/Home/Text/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001907s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001316s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000311s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000321s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000589s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001284s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.060227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000169s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000833s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2016-03-18T22:43:41+08:00 ] ::1 /its/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.003692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001649s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000280s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000213s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000376s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000853s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\its\Runtime\Cache\Home\50690c813986d244f054664065d244a0.php 第 41 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000447s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-03-18T22:43:49+08:00 ] ::1 /its/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `its_user` [ RunTime:0.017836s ]
+SQL: SELECT * FROM `its_user` WHERE ( user_code=20141002347 )  [ RunTime:0.001534s ]
+SQL: UPDATE `its_user` SET `last_login_time`=1458312229 WHERE ( user_id=3 ) [ RunTime:0.173524s ]
+
+[ 2016-03-18T22:43:49+08:00 ] ::1 /its/index.php/Home/Index/chooseModule.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000706s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000234s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000231s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000388s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000882s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-03-18T22:44:00+08:00 ] ::1 /its/index.php/Home/Tone/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001242s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001267s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000234s ]
+SQL: SHOW COLUMNS FROM `its_course` [ RunTime:0.018826s ]
+SQL: SELECT * FROM `its_course`  [ RunTime:0.001064s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000177s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000510s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001009s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037059s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
+[ 2016-03-18T22:44:02+08:00 ] ::1 /its/index.php/Home/Tone/sentenceList?course_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.017481s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.001142s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000174s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000717s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001511s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.043357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000745s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2016-03-18T22:44:03+08:00 ] ::1 /its/index.php/Home/Tone/senSelect?course_id=1&sentence_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001259s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.015827s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( sentence_id=1 and course_id=1 )  [ RunTime:0.001460s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.001769s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000636s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001725s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036260s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000481s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-03-18T22:44:03+08:00 ] ::1 /its/index.php/Home/Tone/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.024029s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.001407s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001737s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003234s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.065732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-03-18T22:44:06+08:00 ] ::1 /its/index.php/Home/text/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001982s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000210s ]
+SQL: SHOW COLUMNS FROM `its_text_type` [ RunTime:0.016408s ]
+SQL: SELECT * FROM `its_text_type`  [ RunTime:0.000903s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000178s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000385s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000972s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045935s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000454s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000586s ]
+
+[ 2016-03-18T22:44:08+08:00 ] ::1 /its/index.php/Home/text/textList?type_id=2
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001365s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001158s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.023608s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=2 )  [ RunTime:0.001284s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.017983s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=3 and type_id=2 )  [ RunTime:0.000921s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=3 and type_id=2 and eval_grade is not null )  [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.017454s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000735s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001546s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.059799s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000519s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000256s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2016-03-18T22:44:08+08:00 ] ::1 /its/index.php/Home/text/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001238s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001564s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000844s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000642s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001891s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.052608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000259s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-03-18T22:44:16+08:00 ] ::1 /its/index.php/Home/Tone/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001337s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `its_course` [ RunTime:0.018760s ]
+SQL: SELECT * FROM `its_course`  [ RunTime:0.002846s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000183s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000406s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000868s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001152s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2016-03-18T22:44:30+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001247s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000226s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000596s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000449s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001010s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.042911s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043521s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001036s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2016-03-18T22:44:31+08:00 ] ::1 /its/index.php/Home/Movie/emoSelect?emotion_id=4
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.003142s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `its_movie` [ RunTime:0.023445s ]
+SQL: SELECT * FROM `its_movie` WHERE ( emotion_id=4 )  [ RunTime:0.003082s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.022346s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.001096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002011s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\1878e2b721e90062acda033384db764e.php 第 41 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.058750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000176s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001334s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002270s ]
+
+[ 2016-03-18T22:44:34+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000200s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000186s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002981s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.046387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000510s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000779s ]
+
+[ 2016-03-18T22:57:19+08:00 ] ::1 /its/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.004990s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001473s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000303s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000722s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\its\Runtime\Cache\Home\50690c813986d244f054664065d244a0.php 第 41 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.043354s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043871s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000475s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2016-03-18T22:57:28+08:00 ] ::1 /its/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001667s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `its_user` [ RunTime:0.062459s ]
+SQL: SELECT * FROM `its_user` WHERE ( user_code=2041002347 )  [ RunTime:0.001378s ]
+
+[ 2016-03-18T22:57:28+08:00 ] ::1 /its/index.php/Home/Index/index/error/%E5%B8%90%E5%8F%B7%E6%88%96%E5%AF%86%E7%A0%81%E9%94%99%E8%AF%AF.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002058s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001200s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000344s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000281s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000558s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001255s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.049443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050145s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-03-18T22:57:36+08:00 ] ::1 /its/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001433s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `its_user` [ RunTime:0.018874s ]
+SQL: SELECT * FROM `its_user` WHERE ( user_code=20141002347 )  [ RunTime:0.001134s ]
+SQL: UPDATE `its_user` SET `last_login_time`=1458313056 WHERE ( user_id=3 ) [ RunTime:0.170427s ]
+
+[ 2016-03-18T22:57:37+08:00 ] ::1 /its/index.php/Home/Index/chooseModule.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000880s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000298s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000324s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000533s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001113s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.038079s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000706s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000988s ]
+
+[ 2016-03-18T22:57:44+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002065s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000342s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000284s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000649s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001293s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.082330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000144s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000698s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001043s ]
+
+[ 2016-03-18T22:59:05+08:00 ] ::1 /its/index.php/Home/Movie/emoSelect?emotion_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001318s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `its_movie` [ RunTime:0.151541s ]
+SQL: SELECT * FROM `its_movie` WHERE ( emotion_id=1 )  [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.015117s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000461s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001076s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.030236s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030697s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000579s ]
+
+[ 2016-03-18T22:59:07+08:00 ] ::1 /its/index.php/Home/Movie/showMovie?movie_id=1&emotion_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `its_movie_segment` [ RunTime:0.053109s ]
+SQL: SELECT * FROM `its_movie_segment` WHERE ( movie_id=1 and emotion_id=1 )  [ RunTime:0.001385s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.013327s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+NOTIC: [8] Undefined index: segment_id D:\wamp\www\its\Home\Controller\MovieController.class.php 第 57 行.
+NOTIC: [8] Undefined index: segment_addr D:\wamp\www\its\Home\Controller\MovieController.class.php 第 68 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000159s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000514s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000996s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.046087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-03-18T22:59:07+08:00 ] ::1 /its/index.php/Home/Movie/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001256s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000219s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000161s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000522s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8] Undefined variable: sen D:\wamp\www\its\Runtime\Cache\Home\4cf4313c909046151cf5a12233930395.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034253s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000428s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000274s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2016-03-18T22:59:14+08:00 ] ::1 /its/index.php/Home/Movie/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002854s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000207s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000158s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000320s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000726s ]
+NOTIC: [8] Undefined variable: sen D:\wamp\www\its\Runtime\Cache\Home\4cf4313c909046151cf5a12233930395.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034293s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000471s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+

@@ -1,0 +1,1532 @@
+[ 2016-03-21T20:50:30+08:00 ] ::1 /its/
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000201s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000180s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000605s ]
+NOTIC: [8] Undefined index: error D:\wamp\www\its\Runtime\Cache\Home\50690c813986d244f054664065d244a0.php 第 41 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.098823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-03-21T20:50:57+08:00 ] ::1 /its/index.php/Home/Index/login
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000965s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000196s ]
+SQL: SHOW COLUMNS FROM `its_user` [ RunTime:0.113478s ]
+SQL: SELECT * FROM `its_user` WHERE ( user_code=20141002260 )  [ RunTime:0.003479s ]
+SQL: UPDATE `its_user` SET `last_login_time`=1458564657 WHERE ( user_id=1 ) [ RunTime:0.059897s ]
+
+[ 2016-03-21T20:50:58+08:00 ] ::1 /its/index.php/Home/Index/chooseModule.html
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000175s ]
+SQL: select i.institute_name,c.class_name,c.class_id,i.institute_id from its_class as c,its_institute as i where i.institute_id=c.institute_id [ RunTime:0.055020s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000664s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.125214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-03-21T20:51:01+08:00 ] ::1 /its/index.php/Home/Text/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `its_text_type` [ RunTime:0.042582s ]
+SQL: SELECT * FROM `its_text_type`  [ RunTime:0.000763s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000276s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000602s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\3a7f57c2ab5a0d9b1b28e0d245b3d3f3.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\3a7f57c2ab5a0d9b1b28e0d245b3d3f3.php 第 94 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-03-21T20:51:03+08:00 ] ::1 /its/index.php/Home/Text/textList?type_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000711s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.052180s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.011776s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.041218s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.006767s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.028090s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000594s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000537s ]
+
+[ 2016-03-21T20:52:31+08:00 ] ::1 /its/index.php/Home/Tone/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `its_course` [ RunTime:0.031614s ]
+SQL: SELECT * FROM `its_course`  [ RunTime:0.000591s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000644s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000403s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-03-21T20:54:15+08:00 ] ::1 /its/index.php/Home/Tone/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `its_course` [ RunTime:0.008467s ]
+SQL: SELECT * FROM `its_course`  [ RunTime:0.000576s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000136s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000284s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000612s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-03-21T20:54:17+08:00 ] ::1 /its/index.php/Home/Text/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000634s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `its_text_type` [ RunTime:0.006819s ]
+SQL: SELECT * FROM `its_text_type`  [ RunTime:0.000510s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000334s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000708s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\3a7f57c2ab5a0d9b1b28e0d245b3d3f3.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\3a7f57c2ab5a0d9b1b28e0d245b3d3f3.php 第 94 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-03-21T20:54:19+08:00 ] ::1 /its/index.php/Home/Text/textList?type_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001427s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.012373s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.002537s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.011322s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.000568s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.001493s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.011199s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019623s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-03-21T20:55:48+08:00 ] ::1 /its/index.php/Home/Text/textList?type_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000640s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.007663s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.002370s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.007063s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.000559s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.000639s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.007102s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000572s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2016-03-21T20:55:57+08:00 ] ::1 /its/index.php/Home/Text/text?type_id=1&text_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000854s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.007406s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 and text_id=1 ) ORDER BY text_id  [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006429s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.007237s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.000478s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006572s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000165s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021470s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000213s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-03-21T20:55:58+08:00 ] ::1 /its/index.php/Home/Text/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000603s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000178s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000170s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000260s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000607s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.033863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034214s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000404s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000228s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-03-21T20:56:10+08:00 ] ::1 /its/index.php/Home/Text/text?type_id=1&text_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.010539s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 and text_id=1 ) ORDER BY text_id  [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006507s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.002405s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.007419s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.000496s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.007005s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000155s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000637s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018432s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-03-21T20:56:10+08:00 ] ::1 /its/index.php/Home/Text/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000349s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000151s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000583s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-03-21T20:58:56+08:00 ] ::1 /its/index.php/Home/Text/text?type_id=1&text_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001206s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.007305s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 and text_id=1 ) ORDER BY text_id  [ RunTime:0.001739s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006551s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.008399s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.000496s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006746s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019187s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019496s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-03-21T20:58:57+08:00 ] ::1 /its/index.php/Home/Text/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000980s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000164s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000167s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000383s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000905s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018296s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000461s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-03-21T21:00:26+08:00 ] ::1 /its/index.php/Home/Text/text?type_id=1&text_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.007213s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 and text_id=1 ) ORDER BY text_id  [ RunTime:0.001731s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006566s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.006279s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.009604s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.003757s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.009844s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000302s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000670s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019132s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-03-21T21:00:27+08:00 ] ::1 /its/index.php/Home/Text/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000171s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000251s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000620s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018190s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000456s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000573s ]
+
+[ 2016-03-21T21:00:43+08:00 ] ::1 /its/index.php/Home/Text/text?type_id=1&text_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.008973s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 and text_id=1 ) ORDER BY text_id  [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006566s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.002232s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.007502s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.000649s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006393s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000297s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000632s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-03-21T21:00:43+08:00 ] ::1 /its/index.php/Home/Text/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000192s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000164s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000242s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000597s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.014528s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-03-21T21:01:01+08:00 ] ::1 /its/index.php/Home/Tone/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `its_course` [ RunTime:0.007196s ]
+SQL: SELECT * FROM `its_course`  [ RunTime:0.000598s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.018545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-03-21T21:01:03+08:00 ] ::1 /its/index.php/Home/Tone/sentenceList?course_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.037498s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.000808s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000145s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000277s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\0a20bcb47a388c711c454b87d18cf3e5.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\0a20bcb47a388c711c454b87d18cf3e5.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039922s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000149s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-03-21T21:01:05+08:00 ] ::1 /its/index.php/Home/Tone/senSelect?course_id=1&sentence_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.007246s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( sentence_id=1 and course_id=1 )  [ RunTime:0.000714s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.000632s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000285s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\f86c2d445c7f740e703adf80f89eb9af.php 第 109 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\f86c2d445c7f740e703adf80f89eb9af.php 第 109 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.064058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064394s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-03-21T21:01:06+08:00 ] ::1 /its/index.php/Home/Tone/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000803s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000264s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.045540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045894s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-03-21T21:01:26+08:00 ] ::1 /its/index.php/Home/movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000186s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\f2e58383a2090f47f875cf8156d9213b.php 第 100 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\f2e58383a2090f47f875cf8156d9213b.php 第 100 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.032308s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032660s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-03-21T21:01:28+08:00 ] ::1 /its/index.php/Home/movie/emoSelect?emotion_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `its_movie` [ RunTime:0.049186s ]
+SQL: SELECT * FROM `its_movie` WHERE ( emotion_id=1 )  [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.007529s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000184s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000331s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000702s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\b97198dde0351bd976e8c3fc5823b058.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\b97198dde0351bd976e8c3fc5823b058.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.060225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-03-21T21:01:30+08:00 ] ::1 /its/index.php/Home/movie/showMovie?movie_id=1&emotion_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `its_movie_segment` [ RunTime:0.035788s ]
+SQL: SELECT * FROM `its_movie_segment` WHERE ( movie_id=1 and emotion_id=1 )  [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006603s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+NOTIC: [8] Undefined index: segment_id D:\wamp\www\its\Home\Controller\MovieController.class.php 第 57 行.
+NOTIC: [8] Undefined index: segment_addr D:\wamp\www\its\Home\Controller\MovieController.class.php 第 68 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000333s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.041927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000512s ]
+
+[ 2016-03-21T21:01:31+08:00 ] ::1 /its/index.php/Home/movie/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000152s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000138s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000625s ]
+NOTIC: [8] Undefined variable: sen D:\wamp\www\its\Runtime\Cache\Home\a4cdf1562fbfe5d1c22158bca64a73af.php 第 36 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.036996s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2016-03-21T21:01:37+08:00 ] ::1 /its/index.php/Home/Text/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `its_text_type` [ RunTime:0.007689s ]
+SQL: SELECT * FROM `its_text_type`  [ RunTime:0.000706s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000623s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\3a7f57c2ab5a0d9b1b28e0d245b3d3f3.php 第 94 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\3a7f57c2ab5a0d9b1b28e0d245b3d3f3.php 第 94 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021133s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-03-21T21:01:39+08:00 ] ::1 /its/index.php/Home/Text/textList?type_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000931s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.007020s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.002460s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.008998s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.000536s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.007483s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000088s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-03-21T21:01:41+08:00 ] ::1 /its/index.php/Home/Text/text?type_id=1&text_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000868s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `its_text` [ RunTime:0.007383s ]
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 and text_id=1 ) ORDER BY text_id  [ RunTime:0.001652s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006615s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+SQL: SELECT * FROM `its_text` WHERE ( type_id=1 )  [ RunTime:0.002383s ]
+SQL: SHOW COLUMNS FROM `its_text_grade` [ RunTime:0.007400s ]
+SQL: SELECT `text_id` FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 )  [ RunTime:0.000499s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\wamp\www\its\Home\Model\TextGradeModel.class.php on line 46 and defined D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1445 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1446 行.
+NOTIC: [8] Undefined variable: field D:\wamp\www\its\ThinkPHP\Library\Think\Model.class.php 第 1456 行.
+SQL: SELECT * FROM `its_text_grade` WHERE ( user_id=1 and type_id=1 and eval_grade is not null )  [ RunTime:0.000556s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.006482s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000291s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000616s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\67bd7936483d68a37716b3bfe07f2c23.php 第 102 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020981s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000073s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-03-21T21:01:41+08:00 ] ::1 /its/index.php/Home/Text/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002958s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000153s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000146s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000239s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000750s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.017978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000658s ]
+
+[ 2016-03-21T21:01:58+08:00 ] ::1 /its/index.php/Home/Tone/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `its_course` [ RunTime:0.007730s ]
+SQL: SELECT * FROM `its_course`  [ RunTime:0.000573s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000281s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000609s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000517s ]
+
+[ 2016-03-21T21:02:00+08:00 ] ::1 /its/index.php/Home/Tone/sentenceList?course_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000898s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000149s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.014921s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.001010s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000622s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\0a20bcb47a388c711c454b87d18cf3e5.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\0a20bcb47a388c711c454b87d18cf3e5.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-03-21T21:02:01+08:00 ] ::1 /its/index.php/Home/Tone/senSelect?course_id=1&sentence_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000162s ]
+SQL: SHOW COLUMNS FROM `its_sentence` [ RunTime:0.007501s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( sentence_id=1 and course_id=1 )  [ RunTime:0.000757s ]
+SQL: SELECT * FROM `its_sentence` WHERE ( course_id=1 ) ORDER BY sentence_id  [ RunTime:0.000649s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000137s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000618s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\f86c2d445c7f740e703adf80f89eb9af.php 第 109 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\f86c2d445c7f740e703adf80f89eb9af.php 第 109 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020763s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-03-21T21:02:02+08:00 ] ::1 /its/index.php/Home/Tone/record
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.001030s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.003463s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000169s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000574s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.023510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000371s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000508s ]
+
+[ 2016-03-21T21:02:11+08:00 ] ::1 /its/index.php/Home/Tone/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000148s ]
+SQL: SHOW COLUMNS FROM `its_course` [ RunTime:0.007390s ]
+SQL: SELECT * FROM `its_course`  [ RunTime:0.000659s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000621s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\2eebf505e7255da9e7d1356c0e1ad201.php 第 76 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000216s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000504s ]
+
+[ 2016-03-21T21:02:57+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000188s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000340s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008485s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\e5f933ca5d2d2b93ae3fc55b03dff0e6.php 第 100 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\e5f933ca5d2d2b93ae3fc55b03dff0e6.php 第 100 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.043228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000224s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000518s ]
+
+[ 2016-03-21T21:03:10+08:00 ] ::1 /its/index.php/Home/Movie/emoSelect?emotion_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000202s ]
+SQL: SHOW COLUMNS FROM `its_movie` [ RunTime:0.009531s ]
+SQL: SELECT * FROM `its_movie` WHERE ( emotion_id=1 )  [ RunTime:0.001438s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.008093s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002364s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\1878e2b721e90062acda033384db764e.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\1878e2b721e90062acda033384db764e.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000078s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-03-21T21:03:18+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000169s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000139s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000292s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000624s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\e5f933ca5d2d2b93ae3fc55b03dff0e6.php 第 100 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\e5f933ca5d2d2b93ae3fc55b03dff0e6.php 第 100 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020706s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000214s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2016-03-21T21:04:02+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000151s ]
+
+[ 2016-03-21T21:04:39+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000167s ]
+SQL: select i.institute_name,c.class_name,c.class_id,i.institute_id from its_class as c,its_institute as i where i.institute_id=c.institute_id [ RunTime:0.000792s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000142s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000290s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000626s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000075s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-03-21T21:14:04+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000944s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000171s ]
+SQL: select i.institute_name,c.class_name,c.class_id,i.institute_id from its_class as c,its_institute as i where i.institute_id=c.institute_id [ RunTime:0.000690s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000677s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019621s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019944s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000096s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000511s ]
+
+[ 2016-03-21T21:25:10+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000160s ]
+SQL: select i.institute_name,c.class_name,c.class_id,i.institute_id from its_class as c,its_institute as i where i.institute_id=c.institute_id [ RunTime:0.000647s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000658s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-03-21T22:51:43+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000789s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000173s ]
+SQL: select i.institute_name,c.class_name,c.class_id,i.institute_id from its_class as c,its_institute as i where i.institute_id=c.institute_id [ RunTime:0.001004s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000311s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000672s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.019997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000219s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-03-21T23:56:04+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000190s ]
+SQL: select i.institute_name,c.class_name,c.class_id,i.institute_id from its_class as c,its_institute as i where i.institute_id=c.institute_id [ RunTime:0.001395s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000293s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.299249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.299595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000410s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2016-03-21T23:56:09+08:00 ] ::1 /its/index.php/Home/Movie/emoSelect?emotion_id=1
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.002336s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000172s ]
+SQL: SHOW COLUMNS FROM `its_movie` [ RunTime:0.010528s ]
+SQL: SELECT * FROM `its_movie` WHERE ( emotion_id=1 )  [ RunTime:0.087841s ]
+SQL: SHOW COLUMNS FROM `its_common` [ RunTime:0.334487s ]
+ERR: 1146:Table 'its.its_common' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `its_common`
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000374s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000379s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000774s ]
+NOTIC: [8] Undefined variable: all_class D:\wamp\www\its\Runtime\Cache\Home\1878e2b721e90062acda033384db764e.php 第 72 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\its\Runtime\Cache\Home\1878e2b721e90062acda033384db764e.php 第 72 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.076210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076562s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000369s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2016-03-21T23:57:20+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000639s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000151s ]
+SQL: select i.institute_name,c.class_name,c.class_id,i.institute_id from its_class as c,its_institute as i where i.institute_id=c.institute_id [ RunTime:0.040776s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000140s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000305s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000662s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000074s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000520s ]
+
+[ 2016-03-21T23:59:21+08:00 ] ::1 /its/index.php/Home/Movie/index
+INFO: [ app_init ] --START--
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ path_info ] --START--
+INFO: [ path_info ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000165s ]
+SQL: select i.institute_name,c.class_name,c.class_id,i.institute_id from its_class as c,its_institute as i where i.institute_id=c.institute_id [ RunTime:0.000708s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000154s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000299s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000651s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.047340s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047721s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000082s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000147s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+

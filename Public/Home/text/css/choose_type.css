@@ -1,0 +1,40 @@
+.custom_container{
+	background:url("../img/bg.png");
+	width:100%;
+	background-size: 100%;
+}
+.speech,.essay{
+	width:270px;
+	height:270px;
+	display:inline-block;
+}
+
+.speech{
+		background: url("../img/演讲.png") no-repeat;
+		background-size: 260px 260px;
+		background-position: center;
+		float:left;
+		margin-top: 250px;
+}
+
+.essay{
+		background: url("../img/散文.png") no-repeat;
+		background-size: 260px 260px;
+		background-position: center;
+		float:right;
+		margin-top: 250px;
+}
+
+a:hover .speech{
+		background: url("../img/演讲鼠标.png") no-repeat;
+		background-size: 260px 260px;
+		background-position: center;
+		transition:background,0s,ease,0.3s;
+}
+
+a:hover .essay{
+		background: url("../img/散文鼠标.png") no-repeat;
+		background-size: 260px 260px;
+		background-position: center;
+		transition:background,0s,ease,0.3s;
+}

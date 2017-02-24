@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_custom{
+    background-color: white !important;
+}
+
+.nav_custom ul li a div{
+    height:26px;
+    width:25px;
+}
+.nav_custom ul li a .nav_img1{
+    background: url("../img/nav_img/1.png") no-repeat;
+    background-size: 25px auto;
+}
+.nav_custom ul li a:hover .nav_img1{
+    background: url("../img/nav_img/1_click.png") no-repeat;
+    background-size: 25px auto;
+    transition:background,0.5s,ease,0s;
+}
+.nav_custom ul li a .nav_img2{
+    background: url("../img/nav_img/2.png") no-repeat;
+    background-size: 25px auto;
+}
+.nav_custom ul li a:hover .nav_img2{
+    background: url("../img/nav_img/2_click.png") no-repeat;
+    background-size: 25px auto;
+    transition:background,0.5s,ease,0s;
+}
+.nav_custom ul li a .nav_img3{
+    background: url("../img/nav_img/3.png") no-repeat;
+    background-size: 25px auto;
+}
+.nav_custom ul li a:hover .nav_img3{
+    background: url("../img/nav_img/3_click.png") no-repeat;
+    background-size: 25px auto;
+    transition:background,0.5s,ease,0s;
+}
+.nav_custom ul li a .nav_img4{
+    background: url("../img/nav_img/4.png") no-repeat;
+    background-size: 25px auto;
+}
+.nav_custom ul li a:hover .nav_img4{
+    background: url("../img/nav_img/4_click.png") no-repeat;
+    background-size: 25px auto;
+    transition:background,0.5s,ease,0s;
+}
+.nav_custom ul li a .nav_img_photo{
+    background: url("../img/nav_img/photo.png") no-repeat;
+    background-size: 25px auto;
+    margin-right: 30px;
+}
+
+
+
+
+

@@ -1,0 +1,178 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_custom{
+    background-color: white !important;
+}
+
+.nav_custom ul li a .query{
+    background:url("../img/te_nav_img/query.png") no-repeat;
+    background-size: 98.5px auto;
+    height: 26px;
+    width:98.5px;
+    margin-right: 30px;
+}
+
+.nav_custom ul li a .correct{
+    background:url("../img/te_nav_img/correct.png") no-repeat;
+    background-size: 98.5px auto;
+    height: 26px;
+    width:98.5px;
+    margin-right: 30px;
+}
+.nav_custom ul li ul li a .film_dubbing{
+    background:url("../img/te_nav_img/film_dubbing.png") no-repeat;
+    background-size: 98.5px auto;
+    height: 26px;
+    width:98.5px;
+    margin-right: 30px;
+}
+.nav_custom ul li ul li a .pronounciation_and_intonation{
+    background:url("../img/te_nav_img/pronounciation_and_intonation.png") no-repeat;
+    background-size: 98.5px auto;
+    height: 26px;
+    width:98.5px;
+    margin-right: 30px;
+}
+.nav_custom ul li ul li a .speech_and_essay{
+    background:url("../img/te_nav_img/speech_and_essay.png") no-repeat;
+    background-size: 98.5px auto;
+    height: 26px;
+    width:98.5px;
+    margin-right: 30px;
+}
+.nav_custom ul li a .nav_img_photo{
+    background: url("../img/te_nav_img/photo.png") no-repeat;
+    background-size: 25px auto;
+    margin-right: 30px;
+    height:26px;
+    width:25px;
+}
+
+
+
+
+
+#menu, #menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    
+    
+    #menu:before,
+    #menu:after {
+        content: "";
+        display: table;
+    }
+    
+    #menu:after {
+        clear: both;
+    }
+    
+    #menu {
+        zoom:1;
+    }
+    
+    
+    
+    #menu ul {
+        margin: 20px 0 0 0;
+        _margin: 0; /*IE6 only*/
+        opacity: 0;
+        /*visibility: hidden;*/
+        position: absolute;
+        top: 38px;
+        left: 0;
+        z-index: 1;    
+        background: #FFF;
+        -moz-box-shadow: 0 -1px rgba(255,255,255,.3);
+        -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,.3);
+        box-shadow: 0 -1px 0 rgba(255,255,255,.3);  
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;  
+    }
+
+    #menu li:hover > ul {
+        opacity: 1;
+        visibility: visible;
+        margin-top: 10px;
+        border:1px solid #E6E6E6;
+        border-radius: 5px; 
+    }
+    
+    #menu ul ul {
+        top: 0;
+        left: 150px;
+        margin: 0 0 0 20px;
+        _margin: 0; /*IE6 only*/
+        -moz-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+        -webkit-box-shadow: -1px 0 0 rgba(255,255,255,.3);
+        box-shadow: -1px 0 0 rgba(255,255,255,.3); 
+
+    }
+    
+    #menu ul li {
+        float: none;
+        display: block;
+        border: 0;
+    }
+    
+    #menu ul li:last-child {   
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;    
+    }
+    
+    #menu ul a {    
+        padding: 10px;
+        width: 130px;
+        _height: 10px; /*IE6 only*/
+        display: block;
+        white-space: nowrap;
+        float: none;
+        text-transform: none;
+    }
+    
+    #menu ul a:hover {
+        background-color: #F5F6F7;
+    }
+    
+    
+    
+    #menu ul li:first-child > a:after {
+        content: "";
+        position: absolute;
+        left: 60px;
+        top: -7px;
+        width: 0;
+        height: 0;
+        bottom: 100%;
+        border-width: 0 6px 6px 6px;
+        border-style: solid;
+        border-color: #E6E6E6 transparent; 
+    }
+    
+    
+    #menu ul li:last-child > a {
+        -moz-border-radius: 0 0 3px 3px;
+        -webkit-border-radius: 0 0 3px 3px;
+        border-radius:5px 5px;
+    }
+    
+    
+
+
+
+
+
+
+

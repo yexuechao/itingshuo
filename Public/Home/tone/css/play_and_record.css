@@ -1,0 +1,94 @@
+.custom_navigate{
+	margin-top: 60px;
+	background-color: transparent !important;
+	display:inline-block;
+	margin-left: 40px;
+}
+.custom_navigate li,.custom_navigate li a{
+	color:white;
+	font-size: 24px !important;
+	font-family: "幼圆";
+	float: left;
+	text-decoration: none;
+	margin-left: 5px;
+}
+.custom_navigate .custom_active{
+	color:white;
+}
+.custom_container{
+	background:url("../img/bg.png");
+	width:100%;
+	background-size: 100%;
+}
+.main_top{
+	padding-top:20px;
+	margin:0px auto;
+	width:960px;
+}
+.main_top h1{
+	color:#fff;
+}
+.main_top_main{
+	height:170px;
+	background-color: #fff;
+	border-radius: 10px;
+	/*overflow: hidden;*/
+}
+
+.main_down{
+	height:550px;
+	width:960px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin:10px auto;
+	overflow:hidden;
+}
+.sentence{
+	padding:20px;
+	font-family: "微软雅黑";
+	font-size:24px;
+	width:960px;
+	height:550px;
+	overflow-y:auto;
+	overflow-x:none;
+}
+
+.record_div{
+	/*width:2px;*/
+	border: 1px solid red;
+	/*position:absolute;*/
+	/*top:430px;*/
+	height:50px;
+	width:800px;
+	/*display:inline-block;*/
+}
+
+/*audiojs*/
+/*有一部分样式是在audio.js里面加的*/
+.audiojs .play-pause{
+	width:75px;
+	height:70px;
+}
+.audiojs .play { width: 65px; height: 68px; /*padding: 0px 8px 0px 0px;*/background:url(../img/play.png) no-repeat; }
+.audiojs .pause{ width: 65px; height: 68px; /*padding: 0px 8px 0px 0px;*/background:url(../img/pause.png) no-repeat; }
+
+.audiojs p { width: 25px; height: 20px; margin: -3px 0px 0px -1px; }
+
+.audiojs .scrubber { background: #5a5a5a; width: 533px; height:10px; margin: 5px; border-radius: 5px; }
+
+.audiojs .progress { 
+    height: 10px; width: 0px; background: #94d8e4;
+}
+
+.audiojs .loaded { 
+	height: 10px; background:#3daec3;
+}
+
+.audiojs .time { float: left; height: 25px; line-height: 25px; }
+
+.audiojs .bar {
+	margin-top:21px;
+	float:right;
+}
+.audiojs .error-message { height: 24px;line-height: 24px; }
+

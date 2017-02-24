@@ -1,0 +1,102 @@
+﻿@charset "utf-8";
+ CSS Document
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	background:url("../img/bg.png");
+	width:100%;
+	background-size:100%;
+}
+
+
+.custom_navigate{
+	margin-top: 60px;
+	background-color: transparent !important;
+	display:inline-block;
+	margin-left: 40px;
+}
+.custom_navigate li{
+	color:white;
+	font-size: 24px !important;
+	font-family: "幼圆";
+	float: left;
+	text-decoration: none;
+	margin-left: 5px;
+}
+
+body .position{
+	padding: 10% 0;
+}
+
+a .btn1{
+	background:url("../img/happiness.png");
+	width:180px;
+	height:180px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	padding: 50% 50%;
+}
+
+a:hover .btn1{
+	background-image:url("../img/happiness_click.png");
+	width:180px;
+	height:180px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	padding: 50% 50%;
+	transition:background,1s,ease,0s;
+}
+a .btn2{
+	background: url("../img/sadness.png");
+	width:180px;
+	height:180px;
+	background-repeat:no-repeat;
+	border:none;
+	background-position: center center;
+	padding: 50% 50%;
+}
+a:hover .btn2{
+	background-image: url("../img/sadness_click.png");
+	width:180px;
+	height:180px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	padding: 50% 50%;
+	transition:background,1s,ease,0s;
+}
+a .btn3{
+	background: url("../img/anger.png");
+	width:180px;
+	height:180px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	padding: 50% 50%;
+}
+a:hover .btn3{
+	background-image: url("../img/anger_click.png");
+	width:180px;
+	height:180px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	padding: 50% 50%;
+	transition:background,1s,ease,0s;
+}
+a .btn4{
+	background: url("../img/surprise.png");
+	width:180px;
+	height:180px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	padding: 50% 50%;
+}
+a:hover .btn4{
+	background-image: url("../img/surprise_click.png");
+	width:180px;
+	height:180px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	padding: 50% 50%;
+	transition:background,1s,ease,0s;
+}

@@ -1,0 +1,36 @@
+[ 2016-02-28T20:33:46+08:00 ] ::1 /its/index.php/Home/index/aaa
+ERR: 模板不存在:D:/wamp/www/its/Home/View/index/aaa.html
+
+[ 2016-02-28T20:52:33+08:00 ] ::1 /its/index.php/Home/movie/indexTeacehr
+ERR: 非法操作:indexTeacehr
+
+[ 2016-02-28T20:52:56+08:00 ] ::1 /its/index.php/Home/movie/bootstrap.min.css
+ERR: 非法操作:bootstrap.min.css
+
+[ 2016-02-28T20:53:08+08:00 ] ::1 /its/index.php/Home/movie/bootstrap.min.css
+ERR: 非法操作:bootstrap.min.css
+
+[ 2016-02-28T21:03:05+08:00 ] ::1 /its/index.php/Home/index/aaa
+ERR: 模板不存在:D:/wamp/www/its/Home/View/index/aaa.html
+
+[ 2016-02-28T21:23:47+08:00 ] ::1 /its/index.php/Home/text/textList
+ERR: Think\Model:hasFinished方法不存在！
+
+[ 2016-02-28T21:28:32+08:00 ] ::1 /its/index.php/Home/4.movie%E4%B8%BB%E9%A1%B5/movie.html
+ERR: 无法加载控制器:4.movie主页
+
+[ 2016-02-28T21:48:00+08:00 ] ::1 /its/index.php/Home/movie/%3C?pnp%20echo%20$res[0][%27cover_addr%27]?%3E
+ERR: 非法操作:
+
+[ 2016-02-28T21:48:12+08:00 ] ::1 /its/index.php/Home/movie/%3C?pnp%20echo%20$res[0][%27cover_addr%27];%20?%3E
+ERR: 非法操作:
+
+[ 2016-02-28T21:48:59+08:00 ] ::1 /its/index.php/Home/movie/aa
+ERR: 非法操作:aa
+
+[ 2016-02-28T22:40:57+08:00 ] ::1 /its/index.php/Home/Tone/senSelect
+ERR: 模板不存在:D:/wamp/www/its/Home/View/Tone/senSelect.html
+
+[ 2016-02-28T23:49:06+08:00 ] ::1 /its/index.php/Home/Tone/senSelect
+ERR: 模板不存在:D:/wamp/www/its/Home/View/Tone/senSelect.html
+
